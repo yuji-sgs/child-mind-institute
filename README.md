@@ -1,2 +1,2 @@
 # child-mind-institute
-Kaggleコンペ「Child Mind Institute — Problematic Internet Use」用
+Kaggleコンペ「Child Mind Institute — Problematic Internet Use」のリポジトリ
