@@ -10,3 +10,5 @@ Kaggleコンペ「Child Mind Institute — Problematic Internet Use」のリポ�
   - 31〜49：1
   - 50〜79：2
   - 80〜：3
+- siiの欠損値は1224件ある。
+- siiの値は記録されているが、PCIATの回答漏れ（1〜20の回答のうち、いくつかの回答がNan）のデータが65件ある。
