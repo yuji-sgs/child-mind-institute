@@ -12,6 +12,7 @@ Kaggleコンペ「Child Mind Institute — Problematic Internet Use」のリポ�
   - 80〜：3
 - siiの欠損値は1224件ある。
 - siiの値は記録されているが、PCIATの回答漏れ（1〜20の回答のうち、いくつかの回答がNan）のデータが65件ある。
+- テストデータには、PCIATの20項目とPCIAT-PCIAT_Total, PCIAT-Season, sii（目的変数）が含まれていない。
 - 年齢とsiiの関係が特に重要そう。
   - siiのスコアが高いほど、年齢が高い傾向にある。
   - しかし、青年期（13〜18歳）において、PCIATスコアの中央値が最も高い
