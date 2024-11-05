@@ -30,3 +30,6 @@ Kaggleコンペ「Child Mind Institute — Problematic Internet Use」のリポ�
 
 # スコア改善点メモ
 - Parquetファイルの処理について、シンプルに要約統計量をとっているだけなため、改善の余地あり。（2024/11/04）
+
+# 公開Notebook, Discussionメモ
+- 最適化されたスコアではなく、cvを向上させるべき
