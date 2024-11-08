@@ -34,5 +34,8 @@ Kaggleコンペ「Child Mind Institute — Problematic Internet Use」のリポ�
   - まずは前者2つでLightGBMの精度を上げていく。
   - コンペ終盤で後者2つで更に精度を上げていく。（12月からで良さそう）
 
-# 公開Notebook, Discussionメモ
-- 最適化されたスコアではなく、cvを向上させるべき
+# 公開NoteBook, Discussionメモ
+- 最適化されたスコアではなく、CVスコアをまず向上させるべき。
+- 機械学習モデルにカスタム目的変数を導入すると、モデルの性能が上がるかも？
+  - Discussion URL：https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use/discussion?sort=votes
+  - 参考NoteBook：https://www.kaggle.com/code/rsakata/optimize-qwk-by-lgb
