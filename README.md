@@ -1,5 +1,5 @@
 # child-mind-institute
-Kaggleコンペ「Child Mind Institute — Problematic Internet Use」のリポジトリ
+Kaggleコンペ「Child Mind Institute — Problematic Internet Use」用のリポジトリ
 
 # アイデアメモ
 - 目的変数siiが欠損している部分があるため、その部分は教師なし学習で予測して保管
