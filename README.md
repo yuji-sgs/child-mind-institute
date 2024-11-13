@@ -36,7 +36,7 @@ Kaggleコンペ「Child Mind Institute — Problematic Internet Use」用のリ�
 
 # Feature Enginneringメモ（11/20くらいまで頑張りたい。）
 - ver_01：CV評価ダウン、過学習をより助長させるだけになってしまった。
-- LGBM_non_parquet
+- LGBM_non_parquet_ver01
     - ベース：Mean Validation QWK ---> 0.3982
     - ここをFEで改善していく。→ EDAでひたすらデータと向き合う。
         - 良さそうな特徴量
@@ -44,6 +44,7 @@ Kaggleコンペ「Child Mind Institute — Problematic Internet Use」用のリ�
                 - これ追加するだけで、Mean Validation QWK ---> 0.4072
 - 元ある特徴量を消すと精度が下がった→元の特徴量は消すべきではない
   - Kaggle本にもGBTベースのモデルは「不要な特徴量を追加しても精度が落ちにくい」という記述がある。不用意に特徴量を消すリスクよりも、有用な特徴量を追加するところに焦点を当てる方が良い。
+- PCIATの解答漏れデータ（65件）は削除すると圧倒的に精度が落ち、欠損値フラグ追加でも若干精度が落ちた。触れない方が良いかも。
 
 # 公開NoteBook, Discussionメモ
 - 最適化されたスコアではなく、CVスコアをまず向上させるべき。
